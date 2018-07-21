@@ -1,0 +1,172 @@
+/*****CSS Stylesheet for home page of Maegan Clawges's Portfolio Site*****/
+/***********    By Maegan Clawges, please do not replicate    ************/
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+.main {
+  width: 100%;
+  margin-top: 40px;
+}
+
+	.main img {
+    position: absolute;
+    z-index: -1;
+	}
+
+  .main #box-portrait {
+    transition: opacity .4s;
+  }
+
+/* Row Dimensions */
+
+.row {
+  margin: 0 15%;
+  padding: 0;
+  position: relative;
+  height: 0;
+}
+
+	.a {
+	  height: 11.5%;
+	}
+	.b {
+	  height: 12.9%;
+	}
+	.c {
+	  height: 12.5%;
+	}
+	.d {
+	  height: 12.7%;
+	}
+	.e {
+	  height: 12.7%;
+	}
+	.f {
+		height: 13%;
+	}
+	.g {
+		height: 12.6%;
+	}
+	.h {
+		height: 12.6%;
+	}
+
+/* Column Dimensions */
+
+.u, .v, .w, .x, .y, .z {
+  float: left;
+  position: absolute;
+  z-index:: -1;
+  height: 100%;
+  opacity: .9;
+}
+
+	.u {
+    top: 0;
+    left: 0;
+    width: 15.8%;
+	}
+	.v {
+    top: 0;
+    left: 15.8%;
+    width: 17%;
+	}
+	.w {
+    top: 0;
+    left: 32.8%;
+    width: 17%;
+	}
+	.x {
+    top: 0;
+    left: 49.8%;
+    width: 16.8%;
+	}
+	.y {
+    top: 0;
+    left: 66.6%;
+    width: 16.9%;
+	}
+	.z {
+    top: 0;
+    left: 83.5%;
+    width: 16.5%;
+	}
+
+/* set :hover visibility and color for squares */
+
+.a .w, .c .v, .c .z, .d .x, .f .v, .f .y, .h .w, .h .z {
+  background-color: #50acf9; /**blue**/
+}
+.b .z, .c .w, .d .y, .e .v, .f .x, .g .z, .h .u, .a .x, .b .u, .d .y {
+  background-color: #f9f00b; /**yellow**/
+}
+.a .v, .b .x, .c .u, .e .w, .e .z, .f .u, .g .x, .h .v {
+  background-color: #4d47e5; /**purple**/
+}
+.a .u, .a .y, .c .x, .d .v, .e .y, .f .w, .g .u, .h .x {
+  background-color: #297d0e; /**green**/
+}
+.b .v, .b .y, .d .w, .d .z, .e .u, .g .v, .g .y {
+  background-color: #d8611d; /**orange**/
+}
+.a .z, .b .w, .c .y, .d .u, .e .x, .f .z, .g .w, .h .y {
+  background-color: #aa0b31; /**red**/
+}
+
+/* style titles in squares */
+
+h4 {
+  padding: 16% 0;
+  color: rgba(102, 45, 145, 1);
+  margin: 0;
+  padding: 22% 0;
+  margin-top: 5%;
+  position: relative;
+  line-height: 1.3em;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  opacity: 0;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+a:active, a:visited {
+  color: rgba(102, 45, 145, 1);
+}
+
+.c .w:hover, .b .u:hover, .b .z:hover, .d .y:hover {
+	background-color: rgba(249, 240, 11, .4);
+}
+
+@media only screen and (max-width: 430px) {
+  h4 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  h4 {
+    font-size: 10px;
+  }
+  .toolbar {
+    margin-left: 5%;
+  }
+  .toolbar .right {
+    margin-right: 2%;
+  }
+}

@@ -1,0 +1,604 @@
+body {
+	width:100%;
+}
+
+.float {
+	float: left;
+}
+
+#navMenu {
+	top: 42px;
+}
+
+h2.headline {
+	font-size: 3em;
+	text-align: center;
+	line-height: 54px;
+	margin-bottom: 48px;
+	margin-left: 0;
+}
+
+.real-byline, .real-datestamp {
+	font-family: "FarnhamText", serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+.real-datestamp {
+	margin-bottom: 60px;
+}
+
+a[name="food"]:before,
+a[name="tech"]:before,
+a[name="lifestyle"]:before,
+a[name="real-estate"]:before,
+a[name="transportation"]:before {
+	content: "";
+	display: block;
+	height: 90px; /* fixed header height*/
+	margin: -90px 0 0; /* negative fixed header height */
+}
+
+.content .subhead {
+  display: block;
+  font-size: 24px;
+  line-height: 1.5em;
+  font-weight: 500;
+  border-bottom: 1px solid;
+  margin-right: 30px;
+  margin-bottom: 6px;
+}
+
+.yellow-block {
+	background-color: #f6b031;
+	color: #fff;
+}
+
+.yellow-text {
+	color: #f6b031;
+}
+
+.yellow-border {
+	border: 3px solid #f6b031;
+}
+
+.yellow-border a {
+	color: #f6b031;
+}
+
+.faded-yellow {
+	background: url("http://ww3.hdnux.com/photos/40/64/37/8603594/2/850x850.png") fixed repeat;
+}
+
+
+.red-block {
+	background-color: #ef6c68;
+	color: #fff;
+}
+
+.red-text {
+	color: #ef6c68;
+}
+
+.red-border {
+	border: 3px solid #ef6c68;
+}
+
+.red-border a, .brown-border a {
+	color: #ef6c68;
+}
+
+.real-byline a {
+  color: #ef6c68;
+}
+
+.faded-red {
+	background: url("http://ww3.hdnux.com/photos/40/64/37/8603638/2/850x850.png") fixed repeat;
+}
+
+
+.green-block {
+	background-color: #829f20;
+	color: #fff;
+}
+
+.green-text {
+	color: #829f20;
+}
+
+.green-border {
+	border: 3px solid #829f20;
+}
+
+.green-border a {
+	color: #829f20;
+}
+
+.photo-above .green-border {
+  border-width: 5px
+}
+
+.faded-green {
+	background: url("http://ww3.hdnux.com/photos/40/64/37/8603646/2/850x850.png") fixed repeat;
+}
+
+
+.blue-block {
+	background-color: #25a5cc;
+	color: #fff;
+}
+
+.blue-text {
+	color: #25a5cc;
+}
+
+.blue-border {
+	border: 3px solid #25a5cc;
+}
+
+.blue-border a {
+	color: #25a5cc;
+}
+.faded-blue {
+	background: url("http://ww1.hdnux.com/photos/40/64/40/8603656/2/850x850.png") fixed repeat;
+}
+
+
+.brown-block {
+	background-color: #4b3a22;
+	color: #fff;
+}
+
+.brown-text {
+	color: #4b3a22;
+}
+
+.brown-border {
+	border: 3px solid #4b3a22;
+}
+
+.faded-brown {
+	background: url("http://ww4.hdnux.com/photos/40/64/40/8603695/2/850x850.png") fixed repeat;
+}
+
+
+.white-block {
+	background-color: #fff;
+	color: #000;
+}
+
+.white-text {
+	color: #fff;
+}
+
+
+.head-wrapper {
+	width:100%;
+	height: 240px;
+	padding:40px 10%;
+	padding-top:70px;
+}
+
+.article-head {
+	width: 56%;
+	margin: 0 22%;
+	margin-top: 100px;
+	border-bottom: 0 solid transparent !important;
+}
+
+.article-head h1 {
+	font-family: "AntennaMedium", serif;
+}
+
+.intro-image {
+	height: 420px;
+	padding-top: 0;
+	width: 100%;
+	margin: 0;
+	margin-bottom: -30px;
+}
+
+.photo-above .little {
+	width: 33.333%;
+	float: left;
+}
+
+.photo-above img:nth-child(3) {
+	border-left: none;
+  border-right: none;
+}
+
+.text .photo-above .big {
+	width: 100%;
+	border-width: 4px;
+}
+
+.photo-below .little {
+	width: 32%;
+	display: inline;
+}
+
+.text .photo-below .big {
+	width: 68%;
+	float: left;
+	border-right: none;
+}
+
+.house {
+	margin-bottom: -20px;
+}
+
+.intro {
+	margin-top: -10px;
+}
+
+.text .building-wrapper {
+	width: 100%;
+	margin-top: -20px;
+}
+
+.text .building {
+	width: 58%;
+	float: none;
+	margin-left: calc(21% + 6px);
+}
+
+
+.head-wrapper {
+	width: 100%;
+	height: 440px;
+	padding: 40px 10%;
+	padding-top: 200px;
+}
+
+.headline {
+	font-family: "AntennaMedium", serif;
+	font-size: 86px;
+	float: left;
+	margin-left: -14px;
+	position: relative;
+}
+
+.real-estate-head .headline {
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+.food-head .headline {
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.lifestyle-head .headline {
+	margin-left: -11px;
+  margin-top: 29px;
+}
+
+.tech-head .headline {
+	margin-left: 12px;
+	margin-top: 10px;
+}
+
+.transportation-head {
+	width: 100%;
+}
+
+.transportation-head .headline {
+	font-size: 80px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.head-wrapper img {
+	float: left;
+	position: relative;
+}
+
+.real-estate-head img {
+	height: 120px;
+	margin-left: -20px;
+}
+
+.food-head img {
+	height: 100px;
+	margin-top: 22px;
+}
+
+.lifestyle-head img {
+	height: 150px;
+	margin-top: -20px;
+}
+
+.tech-head img {
+	height: 86px;
+	margin-top: 22px;
+}
+
+.transportation-head img {
+	height: 94px;
+	margin-top: 27px;
+}
+
+.content .text {
+	font-family: "AntennaMedium", serif;
+	line-height: 1.5em;
+}
+
+#content .article-body .timeline-center {
+	padding: 40px 50px 20px 50px;
+	width: 70%;
+	margin: 0 15%;
+	display: block;
+	background-color: #fff;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.timeline-center.timeline-photo-fix {
+	position: inherit !important;
+}
+
+#content .article-text p {
+	font-size: 16px;
+}
+
+.timeline-center .wine {
+	width: 90%;
+	margin-bottom: 15px;
+}
+
+.photo-above .price-tag {
+	position: relative;
+	top: 0;
+	left: 20px;
+	z-index: 1000;
+}
+
+.half-padding {
+	padding-top: 30px;
+}
+
+.spine {
+	width: 2px;
+	height: 80px;
+	margin-left: 49.5%;
+}
+
+.intro-border {
+	border: 2px solid transparent;
+	-ms-border-image: -moz-linear-gradient(top left, #f6b031, #ef6c68, #829f20, #25a5cc);
+	-moz-border-image: -moz-linear-gradient(top left, #f6b031, #ef6c68, #829f20, #25a5cc);
+	-webkit-border-image: -webkit-linear-gradient(top left, #f6b031, #ef6c68, #829f20, #25a5cc);
+	border-image: linear-gradient(top left, #f6b031, #ef6c68, #829f20, #25a5cc);
+	border-image-slice: 1;
+	padding-bottom: 15px;
+}
+
+img.intro-border {
+	padding-bottom: 0
+}
+
+.spine-yellow-red {
+  background: -webkit-linear-gradient(top, #f6b031, #ef6c68); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, #f6b031, #ef6c68); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #f6b031, #ef6c68); /* For Firefox 3.6 to 15 */
+  background: linear-gradient (top, #f6b031, #ef6c68); /* Standard syntax */
+}
+
+.spine-red-green {
+  background: -webkit-linear-gradient(top, #ef6c68, #829f20); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, #ef6c68, #829f20); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #ef6c68, #829f20); /* For Firefox 3.6 to 15 */
+  background: linear-gradient (top, #ef6c68, #829f20); /* Standard syntax */
+}
+
+.spine-blue-red {
+  background: -webkit-linear-gradient(top, #25a5cc, #ef6c68); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, #25a5cc, #ef6c68); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #25a5cc, #ef6c68); /* For Firefox 3.6 to 15 */
+  background: linear-gradient (top, #25a5cc, #ef6c68); /* Standard syntax */
+}
+
+.spine-green-yellow {
+  background: -webkit-linear-gradient(top, #829f20, #f6b031); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, #829f20, #f6b031); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #829f20, #f6b031); /* For Firefox 3.6 to 15 */
+  background: linear-gradient (top, #829f20, #f6b031); /* Standard syntax */
+}
+
+.spine-green-blue {
+  background: -webkit-linear-gradient(top, #829f20, #25a5cc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, #829f20, #25a5cc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #829f20, #25a5cc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient (top, #829f20, #25a5cc); /* Standard syntax */
+}
+
+.spine-blue-brown {
+  background: -webkit-linear-gradient(top, #25a5cc, #4b3a22); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, #25a5cc, #4b3a22); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #25a5cc, #4b3a22); /* For Firefox 3.6 to 15 */
+  background: linear-gradient (top, #25a5cc, #4b3a22); /* Standard syntax */
+}
+
+.text .spine:last-child {
+	height: 140px;
+}
+
+.text .photo-below {
+	border-width: 4px;
+	margin-top: -2px;
+}
+
+.text .photo-above {
+	border-width: 4px;
+	margin-bottom: -3px;
+}
+
+.not-for-sale {
+	border-width: 4px;
+}
+
+.shirttail {
+	font-size: 14px;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+a.webtweet:after {
+	content: url(https://s3-us-west-1.amazonaws.com/projects.sfchronicle.com/media/Twitter_logo_blue_16.png);
+	position: absolute;
+	bottom: 9px;
+	right: 20px;
+}
+
+
+@media screen and (max-width: 920px) {
+	.transportation-head .headline {
+		font-size: 64px;
+		margin-top: 38px;
+	}
+	.head-wrapper {
+		width: 100%;
+		height: 340px;
+		padding: 40px 5%;
+		padding-top: 150px;
+	}
+	#content .article-body .timeline-center {
+		padding: 30px 30px 25px 35px;
+		width: 84%;
+		margin: 0 8%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.real-estate-head .headline {
+		font-size: 74px;
+		margin-top: 30px
+	}
+	.transportation-head .headline {
+		font-size: 54px;
+		margin-top: 0;
+	}
+	.transportation-head img {
+		height: 66px;
+		margin-top: 0;
+	}
+	#content .article-body .timeline-center {
+		padding: 20px 25px;
+		width: 86%;
+		margin: 0 7%;
+	}
+  .article-body .article-text {
+		width: 100%;
+		margin: 0;
+		border: none;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.subhead {
+		font-size: 18px;
+		margin-right: 0;
+	}
+	#content .article-body .timeline-center {
+	  padding: 30px 40px;
+		width: 86%;
+		margin: 0 7%;
+	}
+	#content .article-head, #content .article-wrap {
+		margin-top: 0;
+	}
+	.real-estate-head .headline {
+		font-size: 66px;
+		margin-top: 36px;
+	}
+	#content .article-text p {
+		font-size: .9rem;
+		line-height: 1.4rem
+	}
+	.article-body .article-head h2.headline {
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.2em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.headline {
+		font-size: 60px;
+	}
+	.real-estate-head .headline {
+		font-size: 42px;
+		margin-top: 36px;
+		margin-left: 0;
+	}
+	.real-estate-head img {
+		height: 86px;
+		margin-top: 8px;
+		margin-left: 5px;
+	}
+	.transportation-head .headline {
+		font-size: 36px;
+		margin-left: 0;
+		margin-top: 36px;
+	}
+	.food-head img {
+		height: 84px;
+		margin-top: 10px;
+		margin-left: 5px;
+	}
+	.lifestyle-head img {
+		height: 100px;
+		margin-top: -1px;
+	}
+	.tech-head .headline {
+		margin-left: 10px;
+		margin-top: 18px;
+		font-size: 66px;
+	}
+	.tech-head img {
+		height: 74px;
+		margin-top: 20px;
+		margin-left: 5px;
+	}
+	.transportation-head img {
+		height: 70px;
+		margin-top: 20px;
+		margin-left: 5px;
+	}
+	.head-wrapper {
+		width: 100%;
+		height: 240px;
+		padding: 40px 5%;
+		padding-top: 70px;
+	}
+	#content .article-body .timeline-center {
+	  padding: 30px;
+		width: 100%;
+		margin: 0;
+	}
+	.timeline-center .wine {
+		width: 100%;
+		margin-left: -20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.headline {
+		font-size: 40px;
+	}
+	.real-estate-head .headline {
+		font-size: 36px;
+		margin-top: 54px
+	}
+	.food-head .headline {
+		font-size: 48px;
+	}
+	.lifestyle-head .headline {
+		margin-top: 50px;
+	}
+	.transportation-head .headline {
+		margin-top: 46px;
+		font-size: 28px
+	}
+}
